@@ -1,0 +1,29 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore data directories
+data/
+notebooks/
+other/
+filtered_data/
+tokenized_data/
+output/
+extracted/
+rough/
+intent/
+
+# Ignore SQLite database
+*.sqllite
+devgpt.sqlite
+
+# Ignore FastText language classification model
+lid.176.bin
+
+# Ignore Jupyter Notebooks checkpoints
+*ipynb_checkpoints
+
+# Ignore macOS-specific files
+*.DS_Store
+
+# Ignore environment-related files
+env/
